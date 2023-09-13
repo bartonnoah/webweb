@@ -26,7 +26,7 @@ def alarms(speeds, ping_speed, packet_loss):
     if speeds[0] < 500:
         #Do something
     if ping_speed > acceptable_ping:
-        #Do something else
+        print('Unacceptable ping!  T')
     if packet_loss > acceptable_packet_loss:
         #Do a third thing
 
